@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+}
+
+.navbar{
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: rgb(255,255,255,1);
+    z-index: 1;
+}
+
+.navbar-brand img{
+    height: 50px;
+    color: ;
+}
+
+.navbar-collapse{
+    position: relative;
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 0;  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+
+.window{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window:nth-of-type(even){
+    background: black;
+    color: cornsilk;
+}
+
+
+
+.title h3{
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 10vh;
+}
+
+.list-group-item{
+    border: 0;
+    padding: 0.50rem;
+}
+
+a i{
+    color: white;
+}
+
+.center-me{
+    text-align: center;
+}
+
+.icons{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.campus{
+    width: 15%;
+    height: 15%;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.quote{
+    height: 40px;
+    width: 40px;
+}
+
+.quote:nth-of-type(1){
+    transform: translateY(-25%);
+}
+
+.quote:nth-of-type(2){
+    transform: translateY(25%);
+}
+
+#gif{
+    background-image: url('https://64.media.tumblr.com/a204f7fd4b1aec9c6ee2aa44e693d376/tumblr_n2qagw1yDD1s32c21o1_500.gifv');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.90
+}
+
+.head{
+    margin-bottom: 25px; 
+}
+
+.connection{
+    width: 8%;
+    height: 8%;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.bullet-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.sub-content{
+    margin-bottom: 20px;
+}
+
+.col-lg-1{
+    display: flex;
+    justify-content: center;
+}
+
+.brand-icons{
+    height: 25px;
+    width: 25px;
+}
