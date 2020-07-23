@@ -81,7 +81,7 @@ a i{
 }
 
 .first-heading-icon{
-    width: 105px;
+    width: 115px;
     position: relative;
     left:50%;
     transform: translateX(-50%);
@@ -149,11 +149,14 @@ a i{
         position: relative;
         left:50%;
         transform: translateX(-50%);
-        margin-bottom: 10px;
     }
 
     .col-md-11 p{
         text-align: center;
+    }
+
+    .col-md-1{
+        margin-bottom: 20px;
     }
   }
 
