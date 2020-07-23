@@ -68,7 +68,7 @@ a i{
     left:50%;
     transform: translateX(-50%);
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 /* Centering Heading icon and sizing it */
@@ -156,7 +156,11 @@ a i{
     }
 
     .col-md-1{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .col-md-11{
+        margin-top: 10px;
     }
   }
 
