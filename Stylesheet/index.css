@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Working with navabar */
+.navbar{
+    padding: 0 20px;
+    color: rgb(255,255,255,1);
+}
+
+.navbar-brand img{
+    height: 60px;
+    margin-left: 20px;
+}
+
+.navbar-collapse{
+    position: relative;
+}
+/* Aligning nav to right*/
+.navbar-nav{
+    position: absolute;
+    right: 30px;  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+
+
+
+/* Cenetring items of each window div using flex and setting background black */
+.window{
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window:nth-of-type(even){
+    background: black;
+    color: white;
+}
+
+
+
+/* Centering title of each window div and bottom margin */
+.title h3{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+/* Removing default blue color of link */
+a i{
+    color: white;
+}
+
+/* Centering items */
+.center-me{
+    text-align: center;
+}
+
+.sub-heading-icons{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+/* Centering Heading icon and sizing it */
+.heading-icon{
+    width: 25vh;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+
+
+/* Adding quotes to description of CA (first div) */
+.quote{
+    height: 40px;
+    width: 40px;
+}
+
+.quote:nth-of-type(1){
+    transform: translateY(-25%);
+}
+
+.quote:nth-of-type(2){
+    transform: translateY(25%);
+}
+
+
+
+/* Adding GIF background   */
+#gif{
+    background-image: url('https://64.media.tumblr.com/a204f7fd4b1aec9c6ee2aa44e693d376/tumblr_n2qagw1yDD1s32c21o1_500.gifv');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.90
+}
+
+
+
+/* Bullets icons before sub-content div */
+.bullet-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.col-lg-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sub-content{
+    margin-bottom: 20px;
+}
+
+
+
+/* For bullet-icons */
+@media (max-width: 768px) {
+   h5 {
+      text-align: center;
+    }
+
+    .bullet-icon{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    .col-md-11 p{
+        text-align: center;
+    }
+  }
+
+
+/* Facebook,Instagram,Twitter and Location Icon */
+.brand-icons{
+    height: 25px;
+    width: 25px;
+}
+
+/* Spacing between sub-heading and its content */
+.head{
+    margin-bottom: 25px; 
+}
